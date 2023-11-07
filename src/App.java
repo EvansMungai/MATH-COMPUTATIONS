@@ -6,6 +6,12 @@ class Addition{
     }
 }
 
+class TriangleArea {
+    public double TriangleArea (double base, double height){
+        double area = 3.14 * base * height;
+        return area;
+    }
+}
 public class App {
     public static void main(String[] args) throws Exception {
         Addition addition = new Addition();
