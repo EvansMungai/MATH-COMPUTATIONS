@@ -7,7 +7,7 @@ class Addition{
 }
 
 class TriangleArea {
-    public double TriangleArea (double base, double height){
+    public double triangleArea (double base, double height){
         double area = 3.14 * base * height;
         return area;
     }
