@@ -18,3 +18,10 @@ public class App {
         addition.addition(2,3);
     }
 }
+class Multplication{
+    public int multiplication(int num1, int num2) {
+        int multiplication=num1 * num2;
+        return multiplication;
+    }
+}
+    
