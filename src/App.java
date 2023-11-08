@@ -32,4 +32,10 @@ class Multplication{
         return multiplication;
     }
 }
-    
+   class CircleArea{
+    public double cirlceArea(double radius) {
+        final double pi = 3.14159265359;
+        double area= pi * radius * radius;
+        return area;
+    }
+} 
