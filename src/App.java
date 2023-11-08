@@ -24,4 +24,12 @@ class Multplication{
         return multiplication;
     }
 }
+class CircleArea {
+    public double circleArea(double radius) {
+        double circleArea=Math.PI*radius*radius;
+        return circleArea;
+}
+}
+    
+
     
