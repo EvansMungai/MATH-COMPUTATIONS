@@ -20,6 +20,7 @@ class Addition{
 class TriangleArea {
     public double triangleArea (double base, double height){
         double area = 3.14 * base * height;
+        System.out.println("The area of the triangle is "+area);
         return area;
     }
 }
@@ -42,6 +43,7 @@ public class App {
 class Multplication{
     public int multiplication(int num1, int num2) {
         int multiplication=num1 * num2;
+        System.out.println("The multiplication of the two numbers is "+ multiplication);
         return multiplication;
     }
 }
@@ -49,6 +51,7 @@ class Multplication{
     public double cirlceArea(double radius) {
         final double pi = 3.14159265359;
         double area= pi * radius * radius;
+        System.out.println("The area of a circle with a radius of "+radius+" is " + area);
         return area;
     }
 } 
