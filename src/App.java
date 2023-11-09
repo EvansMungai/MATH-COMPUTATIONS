@@ -20,6 +20,7 @@ public class App {
             int choices = in.nextInt();
             switch (choices) {
                 case 1:
+                    System.out.println("Addition Class");
                     Addition addition = new Addition();
                     System.out.println("Enter the two numbers you want to add");
                     System.out.println("Number 1");
@@ -40,6 +41,7 @@ public class App {
                     subtraction.subtraction(num3, num4);
                     break;
                 case 3:
+                    System.out.println("Multiplication Class");
                     System.out.println("Enter the two numbers you want to multiply");
                     System.out.println("Number 1");
                     int num5 = in.nextInt();
@@ -49,6 +51,7 @@ public class App {
                     multiplication.multiplication(num5, num6);
                     break;
                 case 4:
+                    System.out.println("Division Class");
                     System.out.println("Enter the two numbers you want to divide");
                     System.out.println("Number 1");
                     int num7 = in.nextInt();
@@ -58,6 +61,7 @@ public class App {
                     division.division(num7, num8);
                     break;
                 case 5:
+                    System.out.println("Rectangle Perimeter Class");
                     System.out.println("Enter the length and width of the rectangle");
                     System.out.println("Length: ");
                     int num9 = in.nextInt();
@@ -77,6 +81,7 @@ public class App {
                     triangleArea.triangleArea(num11, num12);
                     break;
                 case 7:
+                    System.out.println("Circle Area Class");
                     System.out.println("Enter the radius of the circle");
                     System.out.println("Radius: ");
                     int num13 = in.nextInt();
