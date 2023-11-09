@@ -1,3 +1,14 @@
+class Division {
+    public float division(int firstNumber, int secondNumber) {
+        float result = (float) firstNumber / secondNumber;
+        System.out.println("The result for your division is:  " + result);
+        return result;
+
+    }
+
+
+}
+
 class Addition{
     public int addition (int firstNumber, int secondNumber){
         int sum = firstNumber + secondNumber;
@@ -24,6 +35,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         Addition addition = new Addition();
         addition.addition(2,3);
+        Division divide = new Division();
+        divide.division(24,8);
     }
 }
 class Multplication{
