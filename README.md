@@ -49,3 +49,8 @@ The project involves the creation of distinct classes, each responsible for a sp
 * Returns the perimeter of a circle given its radius.
 
 The Main class will create objects of all these classes, the class will also prompt the user for inputs then output the specified operation. The switch statement is used to incorporate the menu feature into the project.
+
+## Sample Output
+### Menu
+![image](https://github.com/EvansMungai/MATH-COMPUTATIONS/assets/145257824/d3dcb5a5-598b-4e1b-b300-d32112e7110d)
+
