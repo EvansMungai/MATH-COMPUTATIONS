@@ -8,14 +8,15 @@ The project involves the creation of distinct classes, each responsible for a sp
 
 
 1.	Addition Class
-   
-*Method: add(int firstNumber, int secondNumber)
-*Returns the sum of two numbers.
+
+* Method: add(int firstNumber, int secondNumber)
+* Returns the sum of two numbers.
+
 
 2.	Subtraction Class:
    
-*Method: subtract(int firstNumber, int secondNumber)
-*Returns the result of subtracting the second number from the first.
+* Method: subtract(int firstNumber, int secondNumber)
+* Returns the result of subtracting the second number from the first.
 
 3.	Multiplication Class:
 	
