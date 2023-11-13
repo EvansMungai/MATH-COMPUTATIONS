@@ -3,7 +3,7 @@
 ## Project Description
 The "Math-Computation project" is a Java project designed to provide a set of classes for fundamental mathematical operations. Each class encapsulates a specific mathematical operation, including addition, subtraction, multiplication, division, rectangle perimeter calculation, triangle area calculation, circle area calculation, and circle perimeter calculation.
 
-## Problem Statement
+## Project Outline
 The project involves the creation of distinct classes, each responsible for a specific mathematical operation. Here's an overview of the classes and their functionalities:
 
 
