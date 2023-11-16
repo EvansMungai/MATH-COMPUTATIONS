@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -5,6 +6,7 @@ public class App {
         Scanner in = new Scanner(System.in);
         boolean isRunning = true;
         while (isRunning) {
+            try{
             System.out.println("\t\t\tCALCULATOR");
             System.out.println("\t\tSelect between the operation you want to perform (1-9)");
             System.out.println("\t1: Addition");
@@ -99,9 +101,16 @@ public class App {
                 case 9:
                     System.out.println("Exit!");
                     isRunning = false;
+                    break;
                 default:
                     System.out.println("Invalid choice");
                     break;
+            }
+            }catch (InputMismatchException e) {
+                // Catch InputMismatchException if the user enters a non-integer
+                System.out.println("Invalid input. Please enter a valid integer.");
+                // Consume the invalid input to avoid an infinite loop
+                in.next();
             }
         }
         in.close();
